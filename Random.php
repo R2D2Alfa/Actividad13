@@ -15,10 +15,10 @@
         $i=rand(1,10);
         $j=rand(1,10);
          if ($i<9) {
-            $barco4h =[ $i,$i+1,$i+2];
+            $barco3h =[ $i,$i+1,$i+2];
          }
          elseif ($j<9) {
-            $barco4v =[ $j,$j+1,$j+2];
+            $barco3v =[ $j,$j+1,$j+2];
          } 
         } while ($i>9&&$j>9);
     
